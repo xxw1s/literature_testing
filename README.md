@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Literature KB Pipeline
 
 ## This Project Does
@@ -131,3 +132,6 @@ For a materials institute, GROBID should be one module, not the whole system.
 - Original PDFs are not modified.
 - Duplicate detection is exact-file only in this first version.
 - Classification is keyword-based and should be refined by your domain team.
+=======
+# literature_testing
+>>>>>>> 979acf172ed6e710a422273d734a4c932b195ca3
