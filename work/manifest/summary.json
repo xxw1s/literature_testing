@@ -1,0 +1,14 @@
+{
+  "total_files": 106,
+  "empty_files": 1,
+  "needs_ocr": 28,
+  "with_text": 77,
+  "document_types": {
+    "journal_or_report": 56,
+    "book": 5,
+    "standard": 18,
+    "patent": 25,
+    "brochure": 1,
+    "conference": 1
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "source_dir": "D:\\测试文献",
+  "work_dir": "D:\\测试文献\\literature_kb_pipeline\\work",
+  "normalized_dir": "D:\\测试文献\\literature_kb_pipeline\\normalized",
+  "recursive": false,
+  "copy_mode": "copy",
+  "pdftotext_exe": "",
+  "pdfinfo_exe": "",
+  "filename_max_length": 140,
+  "text_probe_pages": 2,
+  "fulltext_min_chars": 800,
+  "chunk_size": 1200,
+  "chunk_overlap": 200,
+  "ocr_enabled": false,
+  "ocr_command": "",
+  "document_type_rules": {
+    "standard": [
+      "gb",
+      "gb/t",
+      "gb_t",
+      "ga ",
+      "ga-",
+      "astm",
+      "iso",
+      "standard"
+    ],
+    "patent": [
+      "一种",
+      "发明",
+      "实用新型",
+      "专利"
+    ],
+    "book": [
+      "essentials of",
+      "大典",
+      "第1卷",
+      "第2卷",
+      "chapter"
+    ],
+    "conference": [
+      "会议",
+      "年会",
+      "conference",
+      "proceedings"
+    ],
+    "brochure": [
+      "宣传册",
+      "手册"
+    ],
+    "thesis": [
+      "学位",
+      "博士",
+      "硕士"
+    ]
+  },
+  "taxonomy": {
+    "materials": {
+      "aluminum_alloy": [
+        "aluminum",
+        "al alloy",
+        "铝合金",
+        "铝",
+        "603",
+        "6063",
+        "zl114a"
+      ],
+      "magnesium_alloy": [
+        "magnesium",
+        "mg-",
+        "镁合金",
+        "镁"
+      ],
+      "titanium_alloy": [
+        "titanium",
+        "ti-",
+        "tc4",
+        "tc11",
+        "钛合金",
+        "钛"
+      ],
+      "steel": [
+        "steel",
+        "armor steel",
+        "钢",
+        "装甲钢"
+      ],
+      "ceramic": [
+        "ceramic",
+        "陶瓷"
+      ],
+      "composite": [
+        "composite",
+        "复合",
+        "复材"
+      ],
+      "liquid_metal": [
+        "liquid metal",
+        "gainsn",
+        "液态金属"
+      ]
+    },
+    "processes": {
+      "casting": [
+        "casting",
+        "dc casting",
+        "铸造",
+        "熔炼"
+      ],
+      "heat_treatment": [
+        "heat treatment",
+        "aging",
+        "solution treatment",
+        "热处理",
+        "淬火"
+      ],
+      "welding": [
+        "welding",
+        "friction stir",
+        "焊接"
+      ],
+      "additive_manufacturing": [
+        "additive",
+        "waam",
+        "wire arc",
+        "增材"
+      ],
+      "surface_engineering": [
+        "surface",
+        "coating",
+        "nitrid",
+        "plating",
+        "表面",
+        "涂层",
+        "渗氮",
+        "镀"
+      ],
+      "powder_metallurgy": [
+        "powder metallurgy",
+        "粉末冶金"
+      ],
+      "deformation": [
+        "rolling",
+        "forging",
+        "compression",
+        "变形",
+        "热压缩",
+        "锻造",
+        "轧制"
+      ]
+    },
+    "properties": {
+      "strength": [
+        "strength",
+        "yield",
+        "tensile",
+        "强度",
+        "屈服"
+      ],
+      "ductility": [
+        "ductility",
+        "elongation",
+        "plasticity",
+        "塑性",
+        "延伸率"
+      ],
+      "fatigue": [
+        "fatigue",
+        "高周疲劳",
+        "疲劳"
+      ],
+      "corrosion": [
+        "corrosion",
+        "耐蚀",
+        "腐蚀"
+      ],
+      "thermal_stability": [
+        "thermal",
+        "heat resistant",
+        "耐热",
+        "热稳定"
+      ],
+      "ballistic": [
+        "ballistic",
+        "armor",
+        "抗弹",
+        "侵彻",
+        "防护"
+      ],
+      "microstructure": [
+        "microstructure",
+        "组织",
+        "晶粒",
+        "析出相",
+        "织构"
+      ]
+    }
+  }
+}
